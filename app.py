@@ -6,6 +6,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 import re
 import joblib
 import streamlit as st
+import dill
 
 st.title("Welcome To Gmail Smart Compose Webapp")
 #st.write('AS we all know about the E-mail, the E-mail continues to be a ubiquitous and growing form of communication all over the world, with an estimated 3.8 billion users sending 281 billion e-mails daily. All you have experienced the Gmail smart compose, maybe even without knowing you all are actually using the Gmail smart compose in daily life. Maybe you notice when typing an email, sometimes Gmail suggests the relevant or relevant sentences, this is nothing but Gmail smart compose.')
