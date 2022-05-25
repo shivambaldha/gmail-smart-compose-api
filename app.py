@@ -11,7 +11,8 @@ import dill
 st.title("Welcome To Gmail Smart Compose Webapp")
 #st.write('AS we all know about the E-mail, the E-mail continues to be a ubiquitous and growing form of communication all over the world, with an estimated 3.8 billion users sending 281 billion e-mails daily. All you have experienced the Gmail smart compose, maybe even without knowing you all are actually using the Gmail smart compose in daily life. Maybe you notice when typing an email, sometimes Gmail suggests the relevant or relevant sentences, this is nothing but Gmail smart compose.')
 st.write('Problem statement : So here is the task we have to make a model, which can predict the sentences or words based on the given sentence or some words.')
-st.markdown("![Alt Text](https://www.androidguys.com/wp-content/uploads/2018/05/Gmail.gif)")
+#st.markdown("![Alt Text](https://www.androidguys.com/wp-content/uploads/2018/05/Gmail.gif)")
+st.image('img.jpg' , caption = 'SOURCE - https://techcrunch.com/')
 
 input_words = st.text_input('Enter The Words')
 
